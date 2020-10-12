@@ -1,5 +1,84 @@
+/* Universal Styles */
 
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    color: #3b3b3b;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+#bold {
+    font-weight: 700;
+}
+
+#light {
+    font-weight: 300;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+}
+
+/* Header Section */
+
+header {
+    position: fixed;
+    z-index: 10;
+    background-color: white;
+    width: 100%;
+    min-width: 40rem;
+    border-bottom: gray solid 1px;
+}
+
+header .content {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+header a {
+    text-decoration: none;
+    color: #3b3b3b;
+}
+
+#logo {
+    display: inline-flex;
+    align-items: center;
+    flex: 1;
+}
+
+#logo img {
+    height: 2rem;
+    width: auto;
+}
+
+nav ul {
+    height: 2rem;
+    align-items: center;
+
+}
+
+nav li {
+    padding-left: 1rem;
+}
+
+/* Information Section */
 
 
 
 /* Dark blue color: #2b5797 */
+
