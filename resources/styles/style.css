@@ -12,7 +12,37 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 2rem 1.5rem;
+}
 
+h1,
+h2,
+h3,
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+p {
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: #3b3b3b;
 }
 
 #bold {
@@ -41,18 +71,14 @@ header {
     background-color: white;
     width: 100%;
     min-width: 40rem;
-    border-bottom: gray solid 1px;
+    border-bottom: rgb(214, 214, 214) solid 1px;
+    opacity: 0.9;
 }
 
 header .content {
     display: flex;
     align-items: center;
     padding: 1rem 1.5rem;
-}
-
-header a {
-    text-decoration: none;
-    color: #3b3b3b;
 }
 
 #logo {
@@ -69,16 +95,158 @@ header a {
 nav ul {
     height: 2rem;
     align-items: center;
-
+    font-size: 0.875rem;
 }
 
 nav li {
     padding-left: 1rem;
 }
 
-/* Information Section */
+/* Main Section */
+
+.main {
+    padding-top: 4rem;
+    margin: auto;
+    max-width: 900px;
+    border: rgb(214, 214, 214) solid 1px;
+}
+
+/* Banner Section */
+
+#banner {
+    display: inline-flex;
+    background-color: rgb(214, 214, 214);
+}
+
+#banner .item1 {
+    width: 60%;
+    height: auto;
+    align-items: flex-start;
+}
+
+.item1 img {
+    height: 100%;
+    width: 100%;
+}
+
+#banner .item2 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    width: 33%;
+    max-width: 320px;
+    display: inline-flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.item2 .button {
+    width: 100%;
+    text-align: center;
+    background-color: #3b3b3b;
+    color: white;
+}
+
+.item2 .button p {
+    padding: 0.5rem 0;
+    margin: 0;
+}
+
+/* Infornmation Section */
+
+#info {
+    display: inline-flex;
+}
+
+#info span {
+    font-size: 0.6rem;
+}
+
+.large-info {
+    padding: 2rem 1.5rem;
+    display: inline-flex;
+    flex-flow: column wrap;
+    width: 60%;
+}
+
+.large-info h1,
+.large-info h2,
+.large-info h3,
+.large-info p {
+    margin-block-end: 1.5rem;
+}
+
+.large-info img {
+    width: 100%;
+    height: auto;
+}
+
+.large-info h2 {
+    padding-top: 2rem;
+}
+
+.infos {
+    display: inline-flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 40%;
+    max-height: 32rem;
+    border-left: rgb(214, 214, 214) solid 1px;
+}
+
+.infos .item {
+    display: flex;
+    padding: 1rem;
+    border-bottom: rgb(214, 214, 214) solid 1px;
+}
 
 
+.item .image-container {
+    width: 35%;
+    height: 35%;
+    min-width: 6.75rem;
+    max-width: 6.75rem;
+    max-height: 6.75rem;
+    min-height: 6.75rem;
+} 
 
-/* Dark blue color: #2b5797 */
+.image-container img {
+    height: 100%;
+    width: 100%;
+}
+
+.item .text {
+    display: inline-flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 65%;
+    padding: 1rem;
+    max-height: 6.75rem;
+} 
+
+.text h3,
+.text p {
+    margin-block-end: 0.5rem;
+}
+
+.text p {
+    font-size: 0.7rem;
+}
+
+.text a {
+    color: rgb(39, 142, 238);
+}
+
+.dark {
+    background-color: rgb(214, 214, 214);
+}
+
+/* Courses Section */
+
+/* Thesis Section */
+
+#thesis video {
+    width: 200px;
+}
+
+/* Footer Section */
 
