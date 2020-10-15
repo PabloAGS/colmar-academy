@@ -22,7 +22,7 @@
     <header>
         <div class="desktop-content">
             <div id="logo">
-                <img src="./resources/images/ic-logo.svg">
+                <img src="./resources/images/ic-logo.svg" alt="Logo" role="presentation">
                 <a href="#"><span id="bold">COLMAR</span><span id="light">ACADEMY</span></a>
             </div>
             <nav>
@@ -37,10 +37,10 @@
         <div class="mobile-content">
             <nav>
                 <ul>
-                <li><a href="#"><img src="./resources/images/ic-logo.svg"></a></li>
-                <li><a href="#"><img src="./resources/images/ic-online.svg"></a></li>
-                <li><a href="#"><img src="./resources/images/ic-on-campus.svg"></a></li>
-                <li><a href="#"><img src="./resources/images/ic-login.svg"></a></li>
+                <li><a href="#"><img src="./resources/images/ic-logo.svg" alt="Home" role="presentation"></a></li>
+                <li><a href="#"><img src="./resources/images/ic-online.svg" alt="Online" role="presentation"></a></li>
+                <li><a href="#"><img src="./resources/images/ic-on-campus.svg" alt="On Campus" role="presentation"></a></li>
+                <li><a href="#"><img src="./resources/images/ic-login.svg" alt="Sign in" role="presentation"></a></li>
                 </ul>
             </nav>
         </div>
@@ -53,7 +53,7 @@
         <!-- Banner Section -->
 
         <div id="banner" class="flex-container dark">
-            <img src="./resources/images/banner.jpg">
+            <img src="./resources/images/banner.jpg" alt="students" role="presentation">
             <div class="text">
                 <h1>Learn something new everyday</h1>
                 <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
@@ -68,7 +68,7 @@
         <div id="info">
             <div class="large-info">
                 <div class="item">
-                    <img src="./resources/images/information-main.jpg">
+                    <img src="./resources/images/information-main.jpg" alt="man reading" role="presentation">
                     <h2>It doesn't hurt to keep practicing</h2>
                     <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
                     <span>Emanuel, Sr Strategist at Hiring.com</span>
@@ -77,32 +77,32 @@
             <div class="infos">
                 <div class="item">
                     <div class="image-container">
-                        <img src="./resources/images/information-orientation.jpg">
+                        <img src="./resources/images/information-orientation.jpg" alt="Orientation" role="presentation">
                     </div>
                     <div class="text">
                         <h3>Orientation date</h3>
                         <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
-                        <span id="button"><a href="#">Read more</a></span>
+                        <span id="button" aria-label="Click here to"><a href="#">Read more</a></span>
                     </div>
                 </div>
                 <div class="item">
                     <div class="image-container">
-                        <img src="./resources/images/information-campus.jpg">
+                        <img src="./resources/images/information-campus.jpg" alt="Campus" role="presentation">
                     </div>
                     <div class="text">
                         <h3>Our campus</h3>
                         <p>Find which campus is close by you</p>
-                        <span id="button"><a href="#">Read more</a></span>
+                        <span id="button" aria-label="Click here to"><a href="#">Read more</a></span>
                     </div>
                 </div>
                 <div class="item dark">
                     <div class="image-container">
-                        <img src="./resources/images/information-guest-lecture.jpg">
+                        <img src="./resources/images/information-guest-lecture.jpg" alt="Oliver Sack" role="presentation">
                     </div>
                     <div class="text">
                         <h3>Our guest lecture</h3>
                         <p>Join a keynote with Oliver Sack about music in medical treatment</p>
-                        <span id="button"><a href="#">Read more</a></span>
+                        <span id="button" aria-label="Click here to"><a href="#">Read more</a></span>
                     </div>
                 </div>
             </div>
@@ -114,52 +114,64 @@
             <h2>Start learning</h2>
             <div class="course-list">
                 <div class="course">
-                    <img src="./resources/images/course-software.jpg">
-                    <div class="text">
-                        <h3>Software engineering</h3>
-                        <p>COURSES</p>
-                        <p>Web Development, Mobile Development, iOT, APIs</p>
-                    </div>
+                    <a href="#">
+                        <img src="./resources/images/course-software.jpg" alt="Computers" role="presentation">
+                        <div class="text">
+                            <h3>Software engineering</h3>
+                            <p>COURSES</p>
+                            <p>Web Development, Mobile Development, iOT, APIs</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="course">
-                    <img src="./resources/images/course-computer-art.jpg">
-                    <div class="text">
-                        <h3>Computer art</h3>
-                        <p>COURSES</p>
-                        <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
-                    </div>
+                    <a href="#">
+                    <img src="./resources/images/course-computer-art.jpg" alt="Phone" role="presentation">
+                        <div class="text">
+                            <h3>Computer art</h3>
+                            <p>COURSES</p>
+                            <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="course">
-                    <img src="./resources/images/course-design.jpg">
-                    <div class="text">
-                        <h3>Design</h3>
-                        <p>COURSES</p>
-                        <p>User Experience Design, User Research, Visual Design</p>
-                    </div>
+                    <a href="#">
+                        <img src="./resources/images/course-design.jpg" alt="Camera" role="presentation">
+                        <div class="text">
+                            <h3>Design</h3>
+                            <p>COURSES</p>
+                            <p>User Experience Design, User Research, Visual Design</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="course">
-                    <img src="./resources/images/course-data.jpg">
-                    <div class="text">
-                        <h3>Data</h3>
-                        <p>COURSES</p>
-                        <p>Data Science, Big Data, SQL, Data Visualization</p>
-                    </div>
+                    <a href="#">
+                        <img src="./resources/images/course-data.jpg" alt="Computer" role="presentation">
+                        <div class="text">
+                            <h3>Data</h3>
+                            <p>COURSES</p>
+                            <p>Data Science, Big Data, SQL, Data Visualization</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="course">
-                    <img src="./resources/images/course-business.jpg">
-                    <div class="text">
-                        <h3>Business</h3>
-                        <p>COURSES</p>
-                        <p>Product Development, Business Development, Startup</p>
-                    </div>
+                    <a href="#">
+                        <img src="./resources/images/course-business.jpg" alt="Chessboard" role="presentation">
+                        <div class="text">
+                            <h3>Business</h3>
+                            <p>COURSES</p>
+                            <p>Product Development, Business Development, Startup</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="course">
-                    <img src="./resources/images/course-marketing.jpg">
-                    <div class="text">
-                        <h3>Marketing</h3>
-                        <p>COURSES</p>
-                        <p>Analytics, Content Marketing, Mobile Marketing</p>
-                    </div>
+                    <a href="#">
+                        <img src="./resources/images/course-marketing.jpg" alt="Smart watch" role="presentation">
+                        <div class="text">
+                            <h3>Marketing</h3>
+                            <p>COURSES</p>
+                            <p>Analytics, Content Marketing, Mobile Marketing</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -172,7 +184,7 @@
                 <div class="theses">
                     <div class="large-thesis">
                         <div class="thesis">
-                            <video autoplay muted loop data-video="0"><source src="./resources/videos/thesis.mp4" type="video/mp4">Sorry, your browser doesn't support embedded videos.</video>
+                            <video autoplay muted loop data-video="0" title="Example of thesis"><source src="./resources/videos/thesis.mp4" type="video/mp4">Sorry, your browser doesn't support embedded videos.</video>
                             <div class="text">
                                 <h3>Reimagine urban</h3>
                                 <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
@@ -181,14 +193,14 @@
                     </div>
                     <div class="small-theses">
                         <div class="thesis dark">
-                            <img src="./resources/images/thesis-fisma.jpg">
+                            <img src="./resources/images/thesis-fisma.jpg" alt="Design" role="presentation">
                             <div class="text">
                                 <h3>Fisma: Design and Propotype</h3>
                                 <p>Designer showcase of new prototype product</p>
                             </div>
                         </div>
                         <div class="thesis">
-                            <img src="./resources/images/thesis-now-and-then.jpg">
+                            <img src="./resources/images/thesis-now-and-then.jpg"alt="New York skyline" role="presentation">
                             <div class="text">
                                 <h3>Now and then</h3>
                                 <p>Research study about New York</p>
