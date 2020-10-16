@@ -153,7 +153,7 @@ header .mobile-content {
 
 /* MAIN SECTION */
 
-.main {
+main {
     padding-top: 4rem;
     margin: auto;
     max-width: 900px;
@@ -164,7 +164,7 @@ header .mobile-content {
     /* Mobile version */
 
     @media only screen and (max-width: 480px) {
-        .main {
+        main {
             padding-top: 4.25rem;
         }
     }
@@ -196,6 +196,7 @@ header .mobile-content {
     text-align: center;
     background-color: #3b3b3b;
     color: white;
+    transition-duration: 0.5s;
 }
 
 #banner .button:hover {
@@ -388,6 +389,7 @@ header .mobile-content {
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
     border-radius: 3px;
     overflow: hidden;
+    transition-duration: 0.5s;
 }
 
 .course:hover {
